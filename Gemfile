@@ -16,6 +16,7 @@ gem 'yard', '>= 0.9.20'
 group :development, :test do
   gem 'rspec-rails', '~> 3.8'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'pry-byebug'
   gem 'faker'
   gem 'factory_bot_rails'
 end
